@@ -1,0 +1,50 @@
+.pagination {
+    margin-left: 35px;
+    border-bottom-left-radius: 30%;
+    padding-top: 15px;
+}
+
+footer {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    background-color: #fbfbfb;
+    overflow: hidden;
+    height: 100px;
+    width: 100%;
+    img {
+     height: 40PX;
+     width: 40PX;
+    }
+    p {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+.redes {
+    margin-left: 20px;
+}
+
+.contact {
+    background-color: #c9b9b9;
+    height: 100px;
+    text-align: center;
+    shape-outside: margin-box;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    input {
+        margin-left: 5px;
+        text-align: center;
+        border-radius: 5px;
+    }
+    button {
+        border-style: none;
+        background-color: #908484;
+        margin-right: 5px;
+        font-size: 15px;
+        margin-bottom: 60px;
+        border-radius: 5px;
+    }
+}
