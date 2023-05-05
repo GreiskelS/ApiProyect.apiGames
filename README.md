@@ -1,6 +1,7 @@
 
-<div class="logo">
-<img src="C:\Users\Greiskel\Desktop\factoria\HTML,CSS,JAVASCRIPT\ApiProyect.apiGames\img\apiGames.png" alt="logo" width="200px">
+<div>
+<p style = 'text-align:center;'>
+<img src="C:\Users\Greiskel\Desktop\factoria\HTML,CSS,JAVASCRIPT\ApiProyect.apiGames\img\apiGames.png" alt="logo" width="300px">
 </p>
 </div>
 
