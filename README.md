@@ -1,6 +1,11 @@
 
+<<<<<<< HEAD
 <div>
 ![](C:\Users\Greiskel\Desktop\factoria\HTML,CSS,JAVASCRIPT\ApiProyect.apiGames\img\apiGames.png)
+=======
+<div class="logo">
+<img src="C:\Users\Greiskel\Desktop\factoria\HTML,CSS,JAVASCRIPT\ApiProyect.apiGames\img\apiGames.png" alt="logo" width="300px">
+>>>>>>> f83d55892614a4b0317d4fa507ccdf8d14a2083f
 </div>
 
 # ApiProyect.apiGames
@@ -34,7 +39,7 @@ Se utilizó:
 
 ## Herramientas
 
-* [Trello](https://trello.com/invite/b/W6a4X8Bu)ATTI413853a66adb443e44c1968f99d31c58C7121750/proyecto-api-apigames
+* [Trello](https://trello.com/invite/b/W6a4X8Bu)ATTI413853a66adb443e44c1968f99d31c58C7121750/proyecto-api-apigames)
 * [Git/GitHub](https://github.com/GreiskelS/ApiProyect.apiGames.git)
 * Visual Studio Code
 
