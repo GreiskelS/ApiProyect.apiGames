@@ -1,8 +1,6 @@
 
 <div>
-<p style = 'text-align:center;'>
-<img src="C:\Users\Greiskel\Desktop\factoria\HTML,CSS,JAVASCRIPT\ApiProyect.apiGames\img\apiGames.png" alt="logo" width="300px">
-</p>
+![](C:\Users\Greiskel\Desktop\factoria\HTML,CSS,JAVASCRIPT\ApiProyect.apiGames\img\apiGames.png)
 </div>
 
 # ApiProyect.apiGames
@@ -14,9 +12,9 @@ En apiGames tienes acceso a los diferentes y variados Amiibos que se pueden enco
 * Página principal(Home): En esta secci
 ón podrás encontrar los Amiibos Destacados del momento, los ZeldaPro, 
 
-* Carrito de la compra: puedes agregar los productos que deseas comprar a tu carrito de la compra y completar tu pedido cuando estés listo.
-* Diseño receptivo: la página está diseñada para ser receptiva y se adapta automáticamente al tamaño de la pantalla del dispositivo del usuario.
-* Navegación sencilla: la navegación es sencilla e intuitiva, con un menú en la parte superior de la página que permite al usuario ir a diferentes secciones de la página
+* Carrito de la compra: para poder comprar desde nuestra página (extra para próximo sprint)
+* Diseño amigable y en detalle de cada personaje.
+* Navegación sencilla: la navegación es sencilla e intuitiva, con un menú fijo en la parte superior de la página .
 
 ## Tecnologías utilizadas
 Se utilizó:
@@ -27,6 +25,7 @@ Se utilizó:
 * CSS
 * HTML
 * JSON
+* ScrollReveal
 * Consumir una API externa
 * Mostrar los datos en tarjetas, etc
 
@@ -43,4 +42,4 @@ Se utilizó:
 ## Links
 * Bootstrap: https://getbootstrap.com/
 * SASS: https://sass-lang.com/
-* JavaScript: https://developer.mozilla.org/es/docs/Web/JavaScript
+* ScrollReveal: https://unpkg.com/scrollreveal/

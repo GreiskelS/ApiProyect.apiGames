@@ -1,5 +1,5 @@
  /* navbar */
-@import url(/nav/nav.css);
+ @import url(/nav/nav.css);
  /* navbar */
  
  /* footer */
@@ -15,7 +15,6 @@
      justify-content: center;
    }
   
-  
  /* banner */
  .bannertop {
      display: flex;
@@ -27,7 +26,7 @@
      box-sizing: border-box;
      align-items: center;
      overflow: hidden;
-        padding-bottom: 30px;
+     padding-bottom: 30px;
      h2 {
          font-size: 20px;
          padding: 60px;
@@ -90,55 +89,44 @@
      display: grid;
      grid-template-columns: repeat(5, 1fr);
      grid-template-rows: auto;
-     padding-top: 5px;
-     gap: 5px 5px;
+     gap: 2px 2px;
  }
  .card {
-    display: flex;
-    align-content: space-evenly;
-    object-fit: cover;
-    align-items: center;
-    width: 15rem; 
-    height: 100%; 
-    margin-left: 30px;
+    object-fit: contain;
+    justify-content: center;
+    width: 10rem; 
+    height: 24rem; 
+    margin-left: 10px;
     text-align: center;
     border-radius: 20px;
     overflow: hidden;
-    img:hover {
-        background: black;
-        color: #fff;
-    }
+    background: rgba(255, 255, 255, 0.385);
 }
-
 .card-img {
-    display: flex;
-    align-content: space-evenly;
     align-items: center;
     object-fit: contain;
-    height: auto;
-    width: auto;
+    height: 200px;
+    width: 157px;
+    transition: all 300ms;
+    border-radius: 18px 18px 0px 0px;
     border-style: ridge;
-    border-radius: 20px 20px 0px 0px;
-    transition: all 500ms;
 }
 .card-body {
-    background: rgba(255, 255, 255, 0.366);
+    background: rgba(242, 237, 237, 0.888);
     p {
         font-size: 15px;
         color: #5a5757;
     
         h5 {
-        color: #5a5757;
-        font-size: 15px;
+        font-size: 1px;
+        color: #4a4646;
         }
     }
 }
-
 .card-img:hover {
-    top: 0px;
-    filter: none;
-    bottom: -40px;
-}
+    background: rgba(3, 3, 3, 0.741);
+    color: #fff;
+} 
 
 #array-extra {
      display: grid;
@@ -166,6 +154,7 @@
      align-items: center;
  }
 
+ 
  .pagination {
      margin-left: 35px;
      border-bottom-left-radius: 30%;
@@ -343,7 +332,6 @@
  }
  
  .texto-footer {
-     @include text;
      color: white;
      font-size: 11px;
  }
@@ -610,3 +598,14 @@
          grid-template-columns: 1fr;
      }
  }
+
+ @media screen and (max-width: 1000px) {
+    #list-amiibo {grid-template-columns: repeat(3, 1fr)} ;
+}
+@media screen and (max-width: 1000px) {
+    #array-extra {grid-template-columns: repeat(3, 1fr)} ;
+}
+
+@media screen and (max-width: 1000px) {
+    #filter-array {grid-template-columns: repeat(3, 1fr)} ;
+}

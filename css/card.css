@@ -8,43 +8,46 @@
      grid-template-columns: repeat(5, 1fr);
      grid-template-rows: auto;
      /*padding-top: 5px;*/
-     gap: 5px 5px;
+     gap: 2px 2px;
  }
  .cardapp {
-    
     object-fit: contain;
-    align-items: center;
-    width: 15rem; 
-    height: 100%; 
-    margin-left: 30px;
+    justify-content: center;
+    width: 10rem; 
+    height: 21rem; 
+    margin-left: 10px;
     text-align: center;
     border-radius: 20px;
     overflow: hidden;
-    background: rgba(255, 255, 255, 0.238);
+    background: rgba(255, 255, 255, 0.385);
+   
     }
 
 .cardapp-img {
     align-items: center;
     object-fit: contain;
-    height: 350px;
-    width: 240px;
-    border-style: ridge;
-    border-radius: 20px 20px 0px 0px;
+    height: 220px;
+    width: 157px;
     transition: all 300ms;
+    border-radius: 18px 18px 0px 0px;
+    border-style: ridge;
 }
 cardapp-body {
-    background: rgba(255, 255, 255, 0.366);     
+    background: rgba(242, 237, 237, 0.888);     
 }
 h5 {
     color: #5a5757;
-    font-size: 15px;
+    font-size: 12px;
     }
 p {
-    font-size: 15px;
-    color: #5a5757;
+    font-size: 12px;
+    color: #4a4646;
 }
 .cardapp-img:hover {
-    top: 0px;
-    filter: none;
-    bottom: -40px;
+    background: rgba(184, 169, 82, 0.708);
+    color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+    #list-amiibo {grid-template-columns: repeat(3, 1fr)} ;
 }

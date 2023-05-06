@@ -29,6 +29,7 @@ footer {
 .contact {
     background-color: #c9b9b9;
     height: 100px;
+  
     text-align: center;
     shape-outside: margin-box;
     overflow: hidden;
@@ -47,4 +48,23 @@ footer {
         margin-bottom: 60px;
         border-radius: 5px;
     }
+}
+
+@media screen and (max-width: 1000px) {
+   footer { width: 100%;
+    height: 150px;
+}
+
+       input {
+        height:40px;
+        width:100%;
+       }
+    .contact {
+        height:140px;
+        width: 140px;
+        font-size: 10px;
+        button {
+            font-size: 10px;
+        }
+}
 }

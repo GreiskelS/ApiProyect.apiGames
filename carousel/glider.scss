@@ -5,7 +5,8 @@
     display: flex;
 	justify-content: space-evenly;
     position: relative;	
-	height: 12em;
+	z-index: 2;
+	height: 10em;
     width: 100%;
    	transform: scale(1.1);
 	padding-top: 20px;
@@ -26,5 +27,8 @@
 	}
 
    
-
-
+	@media screen and (max-width: 1000px) {
+		.carousel {
+			margin-top: 50px;
+		}
+	}
