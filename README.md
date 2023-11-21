@@ -2,13 +2,6 @@
 # ApiProyect.apiGames
 En apiGames tienes acceso a los diferentes y variados Amiibos que se pueden encontrar, desde los más buscados hasta los más raros que te puedes imaginar, siempre basados en los videojuegos que tanto nos encantan.
 
-<div>
-([C:\Users\Greiskel\Desktop\factoria\HTML,CSS,JAVASCRIPT\ApiProyect.apiGames\img\apiGames.png])
-=======
-<div class="logo">
-<img src="" alt="logo" width="300px">
-</div>
-
 ## Características de la página
 ¡Nuestras categorias!
 
@@ -35,8 +28,8 @@ Se utilizó:
 * Greiskel 
 
 ## Herramientas
-* ![Trello](https://trello.com/b/W6a4X8Bu/proyecto-api-apigames)
-* ![Git/GitHub](https://github.com/GreiskelS/ApiProyect.apiGames.git)
+* [Trello](https://trello.com/b/W6a4X8Bu/proyecto-api-apigames)
+* [Git/GitHub](https://github.com/GreiskelS/ApiProyect.apiGames.git)
 * Visual Studio Code
 
 
