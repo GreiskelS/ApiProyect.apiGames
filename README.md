@@ -37,3 +37,7 @@ Se utilizó:
 * Bootstrap: https://getbootstrap.com/
 * SASS: https://sass-lang.com/
 * ScrollReveal: https://unpkg.com/scrollreveal/
+
+
+## Acceso a la página: 
+(https://greiskels.github.io/ApiProyect.apiGames/)
